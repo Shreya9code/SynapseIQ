@@ -1,0 +1,277 @@
+# ==================== NODE.JS / NEXT.JS ====================
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Next.js build output
+.next/
+out/
+build/
+dist/
+
+# Next.js development files
+next-env.d.ts
+
+# Package locks (keep one, ignore the other based on your package manager)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# ==================== PYTHON ====================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# IDE - PyCharm
+.idea/
+
+# ==================== ENVIRONMENT VARIABLES ====================
+# Environment files (CRITICAL - never commit these!)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.backend
+.env.api
+*.env
+
+# API Keys & Secrets
+secrets/
+keys/
+credentials/
+*.key
+*.pem
+*.crt
+
+# ==================== IDE & EDITOR ====================
+# VS Code
+.vscode/
+*.code-workspace
+.code-workspace
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse
+.project
+.classpath
+.settings/
+.loadpath
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+
+# ==================== OPERATING SYSTEM ====================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.Trash-*
+
+# ==================== LOGS & TEMP FILES ====================
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+.temp/
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Cache
+.cache/
+.npm/
+.eslintcache
+.stylelintcache
+tsbuildinfo/
+
+# ==================== TESTING ====================
+# Test coverage
+coverage/
+.nyc_output/
+*.lcov
+htmlcov/
+
+# Jest
+jest-results/
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# ==================== UPLOADS & USER DATA ====================
+# User uploaded files (if stored locally)
+uploads/
+uploads/*
+!uploads/.gitkeep
+downloads/
+data/raw/
+data/processed/
+*.csv
+*.xlsx
+*.xls
+*.json
+!data/.gitkeep
+!data/schema.json
+
+# ==================== DOCUMENTATION ====================
+# Build documentation
+docs/_build/
+site/
+*.pdf
+*.docx
+!README.md
+!CONTRIBUTING.md
+!LICENSE
+
+# ==================== DEPLOYMENT ====================
+# Docker
+docker-compose.override.yml
+.docker/
+
+# Kubernetes
+*.kubeconfig
+
+# Serverless
+.serverless/
+
+# ==================== MISCELLANEOUS ====================
+# Misc
+*.bak
+*.backup
+*.old
+*.orig
+*.save
+.session
+*.pid
+*.seed
+*.pid.lock
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn
+.yarn-integrity
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# Parcel
+.cache
+.parcel-cache
+
+# Rollup
+.rollup.cache
+
+# ==================== PROJECT SPECIFIC ====================
+# SynapseIQ specific
+backend/__pycache__/
+backend/*.pyc
+frontend/.next/
+frontend/node_modules/
+reports/generated/
+reports/*
+!reports/.gitkeep
+!reports/template/
+exports/
+exports/*
+!exports/.gitkeep
+
+# Database files (if using local DB)
+*.db
+*.sqlite
+*.sqlite3
+database.db
+db.sqlite3
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# R
+*.Rproj
+.Rhistory
+.RData

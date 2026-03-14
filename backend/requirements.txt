@@ -1,0 +1,21 @@
+fastapi==0.135.1
+uvicorn==0.27.0
+pyautogen==0.2.23
+ollama==0.1.7
+chromadb==0.4.22
+sentence-transformers==2.3.1
+arxiv==2.1.0
+pypdf==4.0.0
+duckduckgo-search==4.1.1
+python-dotenv==1.0.0
+pydantic==2.5.3
+pydantic-settings==2.1.0
+httpx==0.26.0
+groq==1.1.1
+scikit-learn==1.8.0
+ag2==0.11.2
+openai==2.26.0
+pymupdf==1.23.8              # Better PDF parsing than pypdf
+qdrant-client==1.7.0         # Vector database
+sentence-transformers==2.3.1 # Embeddings
+unstructured==0.12.0 
